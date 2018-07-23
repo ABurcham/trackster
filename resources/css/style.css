@@ -22,9 +22,30 @@ html{
   color: rgb(191,191,191);
   height: 2.5rem;
 }
+.header #search-button:hover{
+  background-color: rgb(104,0,255);
+  transition: background-color .5s ease .2s;
+  cursor: pointer;
+}
+.header .fa-search:hover{
+  color: #fff;
+  transition:color .5s ease .5s;
+}
 .header .fa-search{
   padding: .5rem;
   border-radius: 19px;
   text-align: center;
   background-color: rgb(255,102,204);
+}
+/*Attribute Section*/
+.attribute{
+  cursor: default;
+}
+.attributes{
+  background-color: rgb(104,0,255);
+  color: rgb(255,255,255);
+}
+.track{
+  border-bottom: 1px solid lightgrey;
+  padding: 1rem 0;
 }
